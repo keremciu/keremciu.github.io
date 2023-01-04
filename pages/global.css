@@ -99,7 +99,6 @@ body {
 }
 
 [data-style="stats"].wrapper {
-  border-top: 10px solid var(--ligt-accent-color);
   border-bottom: 10px solid var(--accent-color);
   background: var(--secondary-bg-color);
 }
