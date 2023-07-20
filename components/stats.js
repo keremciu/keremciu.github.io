@@ -35,8 +35,8 @@ export default function Stats() {
             <h4>876km</h4>
           </div>
           <div className="item">
-            <p>Working as a frontend developer</p>
-            <h4>11+ years</h4>
+            <p>Working as a software engineer</p>
+            <h4>13+ years</h4>
           </div>
         </div>
         <svg
