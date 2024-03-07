@@ -6,7 +6,7 @@ const hairList = ["", "mohawk", "gray", "long"];
 
 export default function Intro() {
   const [reveal, setReveal] = useState(false);
-  const [hairStyle, setHairStyle] = useState("mohawk");
+  const [hairStyle, setHairStyle] = useState("gray");
   const filteredHairList = hairList.filter((style) => style !== hairStyle);
   const changeAvatar = () => {
     setReveal(true);
