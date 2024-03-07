@@ -44,7 +44,7 @@ export default function Intro() {
           label="DIGITAL EXPERIENCE DEVELOPER"
           title={
             <span>
-              hello! This is Kerem
+              hello! this is Kerem
               <svg
                 className="name-vector"
                 width="140"
