@@ -7,12 +7,13 @@ const hairList = ["", "mohawk", "gray", "long"];
 export default function Intro() {
   const [reveal, setReveal] = useState(false);
   const [hairStyle, setHairStyle] = useState("gray");
-  const filteredHairList = hairList.filter((style) => style !== hairStyle);
   const changeAvatar = () => {
+    const filteredHairList = hairList.filter((style) => style !== hairStyle);
     setReveal(true);
-    setHairStyle(
-      filteredHairList[Math.floor(Math.random() * filteredHairList.length)]
-    );
+    setHairStyle(prevHairStyle => {
+      const filteredHairList = hairList.filter((style) => style !== prevHairStyle);
+      return filteredHairList[Math.floor(Math.random() * filteredHairList.length)];
+    });
   };
 
   return (
