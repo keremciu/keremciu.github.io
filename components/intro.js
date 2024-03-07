@@ -58,10 +58,9 @@ export default function Intro() {
           }
           description={
             <span>
-              a butterfly who is collecting colors to provide beautiful
-              experiences
+              a tech lead software engineer well-versed in JavaScript ecosystem,
               <br />
-              mostly after creating games and simple web apps
+              enjoys collaboratively creating exemplary user experiences.
             </span>
           }
         />
