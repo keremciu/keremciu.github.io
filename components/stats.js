@@ -36,7 +36,7 @@ export default function Stats() {
           </div>
           <div className="item">
             <p>Working as a software engineer</p>
-            <h4>13+ years</h4>
+            <h4>14+ years</h4>
           </div>
         </div>
         <svg
