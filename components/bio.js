@@ -23,13 +23,14 @@ export default function Bio() {
           <div className="longtext row">
             <div className="column">
               <p>
-                Happy to see that you’d like to read more words from me.
-                <br />I consider myself a refugee in this chaotic world. I feel
-                displaced because somehow we're doomed to feel lonely.
+                Happy to see that you’d like to know more about me.
+                <br />
+                  In our sometimes chaotic world, I often feel like a bit of a wanderer.
+                  I adopt a collective mindset to navigate through ambiguous chaos, aiming for harmony.
               </p>
               <p>
-                I believe that if we share what we have, we can tear down the
-                walls between us and find out who / what we belong to.
+                I believe sharing what we have can break down the walls between us
+                and help us discover where we belong.
               </p>
               <p>
                 When I was little, my curiosity took me to the game universe. I
